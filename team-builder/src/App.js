@@ -4,7 +4,12 @@ import Members from "./members";
 import "./App.css";
 
 function App() {
-  return <div className="App"></div>;
+  const [members, setMembers] = useState([]);
+  return (
+    <div className="App">
+      <Members members={members} />
+    </div>
+  );
 }
 
 export default App;
