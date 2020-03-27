@@ -45,6 +45,7 @@ const Form = props => {
         onChange={handleChanges}
         value={member.role}
       />
+      {/*submit button */}
       <button type="submit">SUBMIT</button>
     </form>
   );
